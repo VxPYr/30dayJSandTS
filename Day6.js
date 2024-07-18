@@ -29,3 +29,7 @@ console.log(arr);
 // Task-7
 let map1 = arr1.map((i)=>i*2);
 console.log(map1);
+
+// Task-8
+let filter1 = arr1.filter((i)=> i<10);
+console.log(filter1);
