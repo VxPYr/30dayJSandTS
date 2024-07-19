@@ -78,3 +78,16 @@ book.yearInfo = function (title, year){
     return `Title: ${this.title}, Year: ${this.year}`
 }
 console.log(book.yearInfo());
+
+// Activity-5: Object Iteration
+// Task-8
+for (const key in book) {
+    console.log(`${key}: ${book[key]}`);
+}
+
+// Task-9
+console.log(Object.keys(book));
+console.log(Object.values(book));
+
+console.log(Object.keys(lib));
+console.log(Object.values(lib));
